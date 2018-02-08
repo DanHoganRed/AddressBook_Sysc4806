@@ -56,8 +56,9 @@ public class ApplicationTest {
         assertThat(b.getName()).isEqualTo(BUDDY_NAME);
         assertThat(b.getPhoneNumber()).isEqualTo(BUDDY_NUMBER);
 
-        //assertThat(a.getBuddys().get(0).getName()).isEqualTo(BUDDY_NAME);
-        //assertThat(a.getBuddys().get(0).getPhoneNumber()).isEqualTo(BUDDY_NUMBER);
+        assertThat(a.getBuddys().get(0).getName()).isEqualTo(BUDDY_NAME);
+        assertThat(a.getBuddys().get(0).getPhoneNumber()).isEqualTo(BUDDY_NUMBER);
+        //System.out.println("ALL TESTS PASSED");
     }
 
 }
